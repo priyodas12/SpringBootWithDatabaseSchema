@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Springboot_with_database_schema
+      jpa:    hibernate:      ddl-auto: none  #default value=create-drop for emebedded database,"none" for non-embeded database.  h2:    console:      enabled: true
+
+server:  port: 8567
